@@ -1,0 +1,33 @@
+{
+    "name": "jquery-khmer-address-formatter",
+    "version": "1.0.0",
+    "description": "jQuery plugin to auto-format Cambodian address strings with Khmer spacing and digit conversion.",
+    "main": "dist/jquery.khmer-address-formatter.js",
+    "unpkg": "dist/jquery.khmer-address-formatter.min.js",
+    "jsdelivr": "dist/jquery.khmer-address-formatter.min.js",
+    "files": [
+        "dist"
+    ],
+    "scripts": {
+        "build": "terser src/index.js -o dist/jquery.khmer-address-formatter.min.js -c -m --comments",
+        "copy": "node -e \"require('fs').copyFileSync('src/index.js', 'dist/jquery.khmer-address-formatter.js')\"",
+        "prepare": "npm run copy && npm run build"
+    },
+    "keywords": [
+        "jquery",
+        "jquery-plugin",
+        "khmer",
+        "cambodia",
+        "address-formatter",
+        "khmer-address",
+        "khmer-digits"
+    ],
+    "author": "Your Name <your.email@example.com>",
+    "license": "MIT",
+    "peerDependencies": {
+        "jquery": ">=1.9.0"
+    },
+    "devDependencies": {
+        "terser": "^5.49.0"
+    }
+}
