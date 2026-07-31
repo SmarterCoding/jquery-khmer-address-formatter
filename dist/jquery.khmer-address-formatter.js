@@ -1,16 +1,34 @@
-/**
- * jQuery Khmer Address Formatter Plugin
- * Full coverage for Cambodian administrative units + Western to Khmer number conversion.
- */
+/*
+|------------------------------------------------------------------------------------------|
+| jQuery Khmer Address Formatter Plugin                                                    |
+| Full coverage for Cambodian administrative units + Western to Khmer number conversion.   |
+| Developement By Chamnan Dev 31/07/2026                                                   |
+|------------------------------------------------------------------------------------------|
+*/
+
 (function (factory) {
   if (typeof define === "function" && define.amd) {
-    // AMD. Register as an anonymous module.
+    /*
+    |------------------------------------------------------
+    | AMD. Register as an anonymous module.
+    |------------------------------------------------------
+    */
     define(["jquery"], factory);
   } else if (typeof module === "object" && module.exports) {
-    // Node/CommonJS
+    /*
+    |-------------------------------------------
+    | Node/CommonJS
+    |-------------------------------------------
+    */
+
     module.exports = factory(require("jquery"));
   } else {
-    // Browser globals
+    /*
+    |-----------------------------------------------
+    | Browser globals
+    |-----------------------------------------------
+    */
+
     factory(jQuery);
   }
 })(function ($) {
@@ -21,7 +39,11 @@
     return;
   }
 
-  // 1. Khmer Number Mapping Dictionary
+  /*
+  |---------------------------------------------
+  | 1. Khmer Number Mapping Dictionary
+  |---------------------------------------------
+  */
   const englishToKhmerDigits = {
     0: "០",
     1: "១",
@@ -39,7 +61,11 @@
     return str.replace(/[0-9]/g, (digit) => englishToKhmerDigits[digit]);
   }
 
-  // 2. Cambodian Administrative Divisions
+  /*
+  |-------------------------------------------
+  | 2. Cambodian Administrative Divisions
+  |-------------------------------------------
+  */
   const cambodiaProvinces = [
     "ភ្នំពេញ",
     "បន្ទាយមានជ័យ",

@@ -2,11 +2,7 @@
 
 > A lightweight, zero-dependency jQuery plugin designed to automatically format Cambodian address strings. It intelligently converts Western Arabic numerals (`0-9`) into Khmer digits (`០-៩`) and adds standard Khmer word spacing between administrative divisions (ភូមិ, ឃុំ, ស្រុក, ខេត្ត, etc.).
 
-[![npm version](https://img.shields.io/npm/v/jquery-khmer-address-formatter.svg?style=flat-square)](https://www.npmjs.com/package/jquery-khmer-address-formatter)
-[![npm downloads](https://img.shields.io/npm/dm/jquery-khmer-address-formatter.svg?style=flat-square)](https://www.npmjs.com/package/jquery-khmer-address-formatter)
-[![jsdelivr](https://data.jsdelivr.net/v1/package/npm/jquery-khmer-address-formatter/badge?style=flat-square)](https://www.jsdelivr.com/package/npm/jquery-khmer-address-formatter)
-[![license](https://img.shields.io/npm/l/jquery-khmer-address-formatter.svg?style=flat-square)](LICENSE)
----
+<p align="center"> <a href="https://www.npmjs.com/package/jquery-khmer-address-formatter"> <img src="https://img.shields.io/npm/v/jquery-khmer-address-formatter.svg?style=flat-square" alt="npm version"> </a> <a href="https://www.npmjs.com/package/jquery-khmer-address-formatter"> <img src="https://img.shields.io/npm/dm/jquery-khmer-address-formatter.svg?style=flat-square" alt="npm downloads"> </a> <a href="https://www.jsdelivr.com/package/npm/jquery-khmer-address-formatter"> <img src="https://data.jsdelivr.net/v1/package/npm/jquery-khmer-address-formatter/badge?style=flat-square" alt="jsDelivr"> </a> <a href="LICENSE"> <img src="https://img.shields.io/npm/l/jquery-khmer-address-formatter.svg?style=flat-square" alt="license"> </a> </p> ---
 
 ## Key Features
 
@@ -28,10 +24,10 @@ npm install jquery-khmer-address-formatter
 ### Via CDN (jsDelivr / unpkg)
 ```html
 <!-- jsDelivr -->
-<script src="[https://cdn.jsdelivr.net/npm/jquery-khmer-address-formatter@1.0.0/dist/jquery.khmer-address-formatter.min.js](https://cdn.jsdelivr.net/npm/jquery-khmer-address-formatter@1.0.0/dist/jquery.khmer-address-formatter.min.js)"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery-khmer-address-formatter@1.0.2/dist/jquery.khmer-address-formatter.min.js"></script>
 
 <!-- unpkg -->
-<script src="[https://unpkg.com/jquery-khmer-address-formatter@1.0.0/dist/jquery.khmer-address-formatter.min.js](https://unpkg.com/jquery-khmer-address-formatter@1.0.0/dist/jquery.khmer-address-formatter.min.js)"></script>
+<script src="https://unpkg.com/jquery-khmer-address-formatter@1.0.2/dist/jquery.khmer-address-formatter.min.js"></script>
 ```
 
 ## Quick Start
@@ -39,8 +35,8 @@ npm install jquery-khmer-address-formatter
 ```html
 <input type="text" id="address" placeholder="ភូមិ6សង្កាត់4អូរត្រេះព្រះសីហនុ">
 
-<script src="[https://code.jquery.com/jquery-3.6.0.min.js](https://code.jquery.com/jquery-3.6.0.min.js)"></script>
-<script src="path/to/jquery.khmer-address-formatter.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="yourpath/to/jquery.khmer-address-formatter.min.js"></script>
 <script>
   $(document).ready(function() {
     $('#address').khmerAddressFormatter({
@@ -69,5 +65,14 @@ const result = $.formatKhmerAddress('ភូមិ1ឃុំបិតត្រា
 // Output: "ភូមិ ១  ឃុំ  បិតត្រាំង  ស្រុក  ព្រៃនប់"
 ```
 
+## Developers
+
+- **Chou Chamnan**
+– Creator & Maintainer
+- GitHub: https://github.com/SmarterCoding
+- npm: https://www.npmjs.com/~chamnan_dev
+---
+Made with ❤️ in Cambodia 🇰🇭
+
 ## License
-MIT
+MIT License
