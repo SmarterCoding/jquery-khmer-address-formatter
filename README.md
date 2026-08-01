@@ -11,7 +11,6 @@
 * ⌨️ **Form Input Auto-Formatting:** Rebinds input events (`blur`, `change`, `keypress`) to clean up address entries dynamically.
 * 📄 **Static Text View Support:** Effortlessly formats non-input elements (`<div>`, `<span>`, `<p>`, `<td>`) rendered from server-side templates (CodeIgniter, Laravel, WordPress).
 * ⚡ **Performance Optimized:** Uses sorted Regex boundary matching to prevent nested string collisions.
----
 
 ## Installation
 
