@@ -1,0 +1,7 @@
+git status
+git add .
+git commit -m "Prepare version 1.0.4"
+npm version patch
+npm publish
+git push
+git push --tags
