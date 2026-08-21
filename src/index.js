@@ -316,7 +316,11 @@
 
     cleaned = cleaned.replace(/\s+/g, " ").trim();
 
-    // Separate numbers from words
+    /*
+    |-------------------------------------------
+    | Separate numbers from words
+    |-------------------------------------------
+    */
     cleaned = cleaned
       .replace(
         /([ភូមិ|សង្កាត់|ខណ្ឌ|ក្រុម|ផ្ទះលេខ|ផ្លូវលេខ]+)([\d\u17E0-\u17E9]+)/g,
@@ -327,7 +331,11 @@
         `$1${spaceStr}$2`,
       );
 
-    // Add spacing before admin keywords
+    /*
+    |--------------------------------------
+    | Add spacing before admin keywords
+    |--------------------------------------
+    */
     const adminKeywords = [
       "រាជធានី",
       "សង្កាត់",
@@ -346,13 +354,21 @@
       cleaned = cleaned.replace(regex, `$1${spaceStr}$2`);
     });
 
-    // Dynamic administrative unit prefix spacing
+    /*
+    |-----------------------------------------------
+    | Dynamic administrative unit prefix spacing
+    |-----------------------------------------------
+    */
     cleaned = cleaned.replace(
       /([^\\s])(ភូមិ|ឃុំ|ស្រុក|ខេត្ត|ខណ្ឌ|សង្កាត់|ក្រុង)([\u1780-\u17D2]+)/g,
       `$1${spaceStr}$2$3`,
     );
 
-    // Match locations
+    /*
+    |--------------------------------------
+    |  Match locations
+    |--------------------------------------
+    */
     const allLocations = [...cambodiaProvinces, ...cambodiaSubDivisions].sort(
       (a, b) => b.length - a.length,
     );
@@ -365,7 +381,11 @@
     return cleaned.replace(/\s+/g, spaceStr).trim();
   }
 
-  // Attach as jQuery plugin
+  /*
+  |------------------------------------------------
+  | Attach as jQuery plugin
+  |------------------------------------------------
+  */
   $.fn.khmerAddressFormatter = function (options) {
     const settings = $.extend(
       {
@@ -406,7 +426,11 @@
     });
   };
 
-  // Utility method
+  /*
+  |---------------------------------------------
+  | Utility method
+  |---------------------------------------------
+  */
   $.formatKhmerAddress = formatKhmerAddress;
 
   return $;

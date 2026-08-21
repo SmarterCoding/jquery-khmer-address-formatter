@@ -2,8 +2,32 @@
 
 > A lightweight, zero-dependency jQuery plugin designed to automatically format Cambodian address strings. It intelligently converts Western Arabic numerals (`0-9`) into Khmer digits (`០-៩`) and adds standard Khmer word spacing between administrative divisions (ភូមិ, ឃុំ, ស្រុក, ខេត្ត, etc.).
 
-<p align="center"> <a href="https://www.npmjs.com/package/jquery-khmer-address-formatter"> <img src="https://img.shields.io/npm/v/jquery-khmer-address-formatter.svg?style=flat-square" alt="npm version"> </a> <a href="https://www.npmjs.com/package/jquery-khmer-address-formatter"> <img src="https://img.shields.io/npm/dm/jquery-khmer-address-formatter.svg?style=flat-square" alt="npm downloads"> </a> <a href="https://www.jsdelivr.com/package/npm/jquery-khmer-address-formatter"> <img src=https://www.jsdelivr.com/assets/949010e45a365bed6e22a8a42e0371b489bb5f1e/img/jsdelivr-horizontal-regular.svg" alt="jsDelivr"> </a> <a href="LICENSE"> <img src="https://img.shields.io/npm/l/jquery-khmer-address-formatter.svg?style=flat-square" alt="license"> </a> </p> 
----
+<p align="center">
+  <a href="https://www.npmjs.com/package/jquery-khmer-address-formatter">
+    <img src="https://img.shields.io/npm/v/jquery-khmer-address-formatter.svg?style=flat-square" alt="npm version">
+  </a>
+
+  <a href="https://www.npmjs.com/package/jquery-khmer-address-formatter">
+    <img src="https://img.shields.io/npm/dm/jquery-khmer-address-formatter.svg?style=flat-square" alt="npm downloads">
+  </a>
+
+  <a href="https://github.com/chamnan-dev/jquery-khmer-address-formatter">
+    <img src="https://img.shields.io/github/stars/chamnan-dev/jquery-khmer-address-formatter?style=flat-square" alt="GitHub stars">
+  </a>
+
+  <a href="https://github.com/chamnan-dev/jquery-khmer-address-formatter/security">
+    <img src="https://img.shields.io/badge/security-policy-blue?style=flat-square" alt="Security Policy">
+  </a>
+
+  <a href="https://www.jsdelivr.com/package/npm/jquery-khmer-address-formatter">
+    <img src="https://www.jsdelivr.com/assets/949010e45a365bed6e22a8a42e0371b489bb5f1e/img/jsdelivr-horizontal-regular.svg" alt="jsDelivr">
+  </a>
+
+  <a href="LICENSE">
+    <img src="https://img.shields.io/npm/l/jquery-khmer-address-formatter.svg?style=flat-square" alt="license">
+  </a>
+</p>
+
 
 ## Key Features
 
