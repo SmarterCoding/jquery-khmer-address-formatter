@@ -28,7 +28,7 @@ Please include:
 
 Please use the **GitHub Security Advisories** feature to report security vulnerabilities privately:
 
-https://github.com/chamnan-dev/jquery-khmer-address-formatter/security/advisories/new
+https://github.com/SmarterCoding/jquery-khmer-address-formatter/security/advisories/new
 
 If private reporting is unavailable, please contact the project maintainer through the contact information listed in the repository.
 
