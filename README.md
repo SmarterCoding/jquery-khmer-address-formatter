@@ -11,11 +11,11 @@
     <img src="https://img.shields.io/npm/dm/jquery-khmer-address-formatter.svg?style=flat-square" alt="npm downloads">
   </a>
 
-  <a href="https://github.com/chamnan-dev/jquery-khmer-address-formatter">
+  <a href="https://github.com/SmarterCoding/jquery-khmer-address-formatter">
     <img src="https://img.shields.io/github/stars/chamnan-dev/jquery-khmer-address-formatter?style=flat-square" alt="GitHub stars">
   </a>
 
-  <a href="https://github.com/chamnan-dev/jquery-khmer-address-formatter/security">
+  <a href="https://github.com/SmarterCoding/jquery-khmer-address-formatter/security">
     <img src="https://img.shields.io/badge/security-policy-blue?style=flat-square" alt="Security Policy">
   </a>
 
